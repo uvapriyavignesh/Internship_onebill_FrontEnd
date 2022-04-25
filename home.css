@@ -1,0 +1,104 @@
+h1 {
+  text-align: center;
+
+  box-shadow: 20px 0px 20px red;
+  border-radius: 50%;
+  width: 321px;
+  height: 52px;
+  margin-left: 40%;
+  padding-top: 1%;
+}
+#head {
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(249, 107, 68, 0.549);
+  border-radius: 0%;
+  width: auto;
+  height: auto;
+  margin-left: 0%;
+  padding-top: 0%;
+  padding: 5%;
+  margin: 0px;
+  background-color: rgb(243, 123, 80);
+}
+.foot {
+  border-radius: 0%;
+  width: auto;
+  height: auto;
+  margin-left: 0%;
+  box-shadow: 20px 0px 20px red;
+  padding-top: 0%;
+}
+h1:hover {
+  color: white;
+  background-color: orange;
+}
+nav {
+  text-align: center;
+  box-shadow: 10px 20px 35px rgb(182, 120, 6);
+  background-color: rgb(185, 47, 6);
+  padding: 7px;
+  position: sticky;
+  top: 0;
+}
+a {
+  color: white;
+  margin-left: 10%;
+  text-decoration: none;
+  font-size: 30px;
+
+  font-style: normal;
+}
+#home {
+  margin-top: 60px;
+  width: 153px;
+  margin-left: 45%;
+}
+.leftcircle {
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+
+  box-shadow: 20px 0px 50px;
+  background-image: url("./istockphoto-517188688-612x612.jpg");
+}
+.rightcircle {
+  background-color: rgb(91, 67, 67);
+  width: 500px;
+  height: 400px;
+  text-align: left;
+  font-size: 20px;
+  box-shadow: 0px 0px 40px rgb(246, 157, 13);
+  /* padding-right: 50%;
+   */
+  margin-left: 50%;
+  border-radius: 50%;
+}
+p {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+.rightcircle2 {
+  background-color: rgb(91, 67, 67);
+  width: 500px;
+  height: 500px;
+  text-align: left;
+  font-size: 20px;
+  box-shadow: 0px 0px 40px rgb(246, 157, 13);
+  /* padding-right: 50%;
+     */
+
+  margin-left: 50%;
+  border-radius: 50%;
+}
+hr {
+  background-color: black;
+  color: black;
+  height: 1px;
+  width: 85%;
+  opacity: 1000%;
+
+  border-radius: 20px;
+}
