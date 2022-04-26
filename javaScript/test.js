@@ -90,3 +90,10 @@ let month = [
 let date = new Date("1/2/2022");
 
 console.log(month[date.getMonth()]);
+
+function name1(...test) {
+  for (let i of test) {
+    console.log(i);
+  }
+}
+name1(12, 45, "sdfgh");

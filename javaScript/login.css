@@ -1,0 +1,27 @@
+/* table {
+  border: 2px solid black;
+}
+td {
+  border: 2px solid black;
+} */
+label {
+  text-align: left;
+}
+h2 {
+  padding-left: 60%;
+}
+table {
+  padding-left: 50%;
+}
+#button {
+  align-items: center;
+  padding-left: 75%;
+  /* background-color: red; */
+}
+#value {
+  border: 3px solid black;
+
+  padding: 0%;
+  margin-left: 50%;
+  align-items: center;
+}

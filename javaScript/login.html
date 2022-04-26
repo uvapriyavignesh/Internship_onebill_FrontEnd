@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Login page</h2>
+    <table>
+      <tr>
+        <th></th>
+        <th></th>
+      </tr>
+      <form action="javascript:detail()" method="post">
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" placeholder="Enter Name" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" placeholder="xyz@gmail.com" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td>
+            <input type="password" id="password" placeholder="Enter Name" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" id="button">
+            <input type="submit" value="submit" />
+          </td>
+        </tr>
+      </form>
+      <button type="button" onclick="check()">check</button>
+    </table>
+    <table id="value">
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>
+          <h4 id="username"></h4>
+        </td>
+        <td>
+          <h4 id="useremail"></h4>
+        </td>
+      </tr>
+    </table>
+    <script src="./login.js"></script>
+  </body>
+</html>
