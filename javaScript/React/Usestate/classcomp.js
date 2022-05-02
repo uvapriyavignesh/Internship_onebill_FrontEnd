@@ -1,15 +1,11 @@
 function Myapp() {
-  const [name1, setName] = React.useState({ fname: "haiii", lname: "last" });
+  const [name1, setName] = React.useState(["test", "sample"]);
   function upadtestate() {
-    setName({
-      ...name1, // we use for keep unchanget element
-      fname: "changed",
-    });
+    setName("haiiiii");
   }
   return (
     <div>
-      <h1>{name1.fname}</h1>
-      <h1>{name1.lname}</h1>
+      <h1>{name1}</h1>
       <button onClick={upadtestate}> click me</button>
     </div>
   );
