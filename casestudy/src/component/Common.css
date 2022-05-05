@@ -1,0 +1,70 @@
+#Headerid {
+  color: blue;
+  background-color: blue;
+  text-align: center;
+}
+#test {
+  color: aqua;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#headertitle {
+  margin-right: 45%;
+}
+#logina {
+  float: left;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+h3 {
+  padding: 1%;
+  padding-top: 2%;
+  text-align: center;
+}
+h4 {
+  padding: 1%;
+  padding-top: 2%;
+  text-align: center;
+}
+hr {
+  height: 120px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  padding: 5x;
+}
+
+.form-control {
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  margin: 4%;
+  padding: 20px;
+  text-align: center;
+}
+button {
+  float: right;
+  margin-right: 13%;
+  width: 70px;
+}
+#nxtbutton {
+  float: left;
+  margin-left: 4%;
+  width: 70px;
+}
