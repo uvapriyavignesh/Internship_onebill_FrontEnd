@@ -1,32 +1,36 @@
 import React from "react";
 import "./Common.css";
+import { AppBar } from "@material-ui/core";
+import { Toolbar, Typography, IconButton, Button } from "@material-ui/core";
+import MenuIcon from "@material-ui/icons/Menu";
 
 function Header() {
   return (
-    <div>
-      <div class="topnav" id="myTopnav">
-        <div>
-          <a href="#home">
-            <h5>
-              <b>Login</b>
-            </h5>
-          </a>
-        </div>
-
-        <div id="headertitle">
-          <a href="#news">
-            <h5>
-              <b>Resume Builder</b>
-            </h5>
-          </a>
-        </div>
-        <div id="logina">
-          <a href="#contact">
-            <h5>
-              <b>Menu</b>
-            </h5>
-          </a>
-        </div>
+    <div calss="row">
+      <div class="col-12">
+        <AppBar position="static">
+          <Toolbar>
+            <IconButton
+              edge="start"
+              style={{
+                marginRight: 20,
+              }}
+              color="inherit"
+              aria-label="menu"
+            >
+              <MenuIcon />
+            </IconButton>
+            <Typography
+              variant="h6"
+              style={{
+                flexGrow: 1,
+              }}
+            >
+              Resume Builder
+            </Typography>
+            <Button color="inherit">Logout</Button>
+          </Toolbar>
+        </AppBar>
       </div>
     </div>
   );
